@@ -1,12 +1,4 @@
-<script>
-export default {
-  onLaunch: function() {
-    this.$scope.songCtx = uni.createInnerAudioContext()
-  }
-}
-</script>
 
-<style>
 @font-face {
   font-family: 'iconfont'; /* project id 1611875 */
   src: url('//at.alicdn.com/t/font_1611875_fl8c5vl4lzt.eot');
@@ -14,7 +6,6 @@ export default {
     url('//at.alicdn.com/t/font_1611875_fl8c5vl4lzt.woff') format('woff'), url('//at.alicdn.com/t/font_1611875_fl8c5vl4lzt.ttf') format('truetype'),
     url('//at.alicdn.com/t/font_1611875_fl8c5vl4lzt.svg#iconfont') format('svg');
 }
-
 .iconfont {
   font-family: 'iconfont' !important;
   font-size: 16px;
@@ -22,13 +13,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .iconbofang:before {
-  content: '\e604';
+  content: '\E604';
 }
 
 /*每个页面公共css */
 page {
   height: 100%;
 }
-</style>
+
